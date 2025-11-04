@@ -63,7 +63,7 @@ export default function Hero() {
 
         <Reveal delay={0.4}>
           <a
-            href="#work"
+            href="#projects"
             className="
               inline-block mt-10 px-8 py-4 border border-[#64ffda]
               rounded-md font-mono text-[#64ffda]
