@@ -24,10 +24,10 @@ export const featuredProjects = [
   {
     title: "Silo",
     subtitle: "Retail Data ETL & Analytics Pipeline",
-    description: "End-to-end ETL pipeline showcasing real-world retail data analytics workflow. From API extraction to Power BI dashboards — demonstrating production-grade data engineering with clean architecture and modular design.",
-    fullStory: "A simple yet powerful ETL pipeline that simulates real-world retail analytics. Silo demonstrates how to collect data from APIs, clean and transform it using Python, and build interactive dashboards — perfect for showcasing data engineering and BI skills.",
-    tech: ["Python", "Pandas", "Power BI", "REST APIs", "ETL", "Data Modeling"],
-    image: "/images/silo.png",
+    description: "End-to-End retail data platform: generating realistic POS and inventory data, transforming it with Python ETL pipelines, loading it into a dimensional warehouse, and visualizing insights through interactive Power BI dashboards.",
+    fullStory: "Silo brings together realistic retail operations, from procurement to point-of-sale. The platform generates multi-year transactional and inventory data, applies incremental ETL logic in Python, and loads a dimensional warehouse designed for analytical performance. With Power BI dashboards, it provides insight into sales trends, margin health, product performance, and operational efficiency — demonstrating modern data engineering and real-world BI delivery.",
+    tech: ["Python", "Pandas", "Power BI", "PostgreSQL", "ETL", "Data Modeling"],
+    image: "/images/silo.jpg",
     github: "https://github.com/ndungek/silo",
     external: "#",
     featured: true
