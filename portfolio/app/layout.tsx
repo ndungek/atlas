@@ -24,7 +24,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-[#0f172a] text-gray-200 antialiased selection:bg-cyan-400/20">
         <Curtain />
         <SocialBar />
-        {children}
+        {/* Global responsive wrapper */}
+        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+          {children}
+        </main>
       </body>
     </html>
   );

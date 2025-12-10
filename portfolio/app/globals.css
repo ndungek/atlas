@@ -56,3 +56,15 @@ body {
   writing-mode: vertical-rl;
   letter-spacing: 0.1em;
 }
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  font-size: clamp(14px, 1.5vw, 18px);
+}
+
+section {
+  padding-block: clamp(2rem, 5vw, 5rem);
+}
