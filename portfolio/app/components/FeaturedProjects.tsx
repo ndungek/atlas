@@ -25,7 +25,7 @@ export default function FeaturedProjects() {
               <div className="relative">
 
                 {/* PROJECT IMAGE */}
-                <div className={`relative ${isEven ? '' : 'ml-auto'} md:w-[60%]`}>
+                <div className={`relative ${isEven ? '' : 'ml-auto'} md:w-[70%]`}>
                   <div className="relative overflow-hidden rounded-lg border border-[#64ffda]/20">
                     <div className="aspect-video relative">
                       <Image
