@@ -20,7 +20,9 @@ export default function Contact() {
 
       <Reveal delay={0.3}>
         <a
-          href="ndungek66@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=ndungek66@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="
             inline-block mt-10 px-8 py-4 border border-[#64ffda]
             rounded-md font-mono text-[#64ffda]
@@ -30,6 +32,7 @@ export default function Contact() {
           Email me
         </a>
       </Reveal>
+
 
     </section>
   );

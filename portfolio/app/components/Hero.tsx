@@ -24,9 +24,15 @@ export default function Hero() {
             <span className="text-[#64ffda]">Contact</span>
           </Link>
 
-          <button className="border border-[#64ffda] px-4 py-2 rounded hover:bg-[#112240] transition">
+          <a
+            href="/MaureenKitang'a_CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-[#64ffda] px-4 py-2 rounded hover:bg-[#112240] transition"
+          >
             Resume
-          </button>
+          </a>
+
         </div>
       </div>
 
