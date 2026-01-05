@@ -16,6 +16,11 @@ const display = Space_Grotesk({
 export const metadata = {
   title: "Maureen — Data Engineer",
   description: "Portfolio",
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
