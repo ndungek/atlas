@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Inter, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 
 import SocialBar from "@/app/components/SocialBar";
 import Curtain from "@/app/components/Curtain"; 
@@ -12,21 +12,29 @@ const display = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-display",
 });
+const mono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+});
+
 
 export const metadata = {
-  title: "Maureen — Data Engineer",
+  title: "Maureen — Data Analyst",
   description: "Portfolio",
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-  },
 };
+
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${sans.variable} ${display.variable}`}>
-      <body className="bg-[#0f172a] text-gray-200 antialiased selection:bg-cyan-400/20">
+    <html lang="en" className={`${sans.variable} ${display.variable} ${mono.variable}`}>
+      <body className="bg-[#0f172a] text-white antialiased selection:bg-cyan-400/20">
         <Curtain />
         <SocialBar />
         {/* Global responsive wrapper */}

@@ -127,7 +127,7 @@ export default function FeaturedProjects() {
 
                       {/* DESCRIPTION CARD */}
                       <div className="bg-[#112240] p-4 lg:p-6 rounded-lg shadow-2xl border border-slate-800/50">
-                        <p className="text-[#8892b0] leading-relaxed text-sm lg:text-base">
+                        <p className="text-[#ccd6f6] leading-relaxed text-sm lg:text-base">
                           {project.description}
                         </p>
                       </div>

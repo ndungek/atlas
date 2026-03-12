@@ -58,7 +58,7 @@ export default function Hero() {
         </Reveal>
 
         <Reveal delay={0.3}>
-          <p className="mt-6 text-[#8892b0] max-w-xl leading-relaxed">
+          <p className="mt-6 text-[#ccd6f6] max-w-xl leading-relaxed">
             I design and maintain modern data pipelines, models, and analytics
             workflows across cloud environments. By combining ETL architecture, SQL,
             and business intelligence tooling, I help transform fragmented data into
