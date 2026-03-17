@@ -48,11 +48,3 @@ body {
   writing-mode: vertical-rl;
   letter-spacing: 0.1em;
 }
-html, body {
-  width: 100%;
-  overflow-x: hidden; 
-}
-
-* {
-  box-sizing: border-box; 
-}
