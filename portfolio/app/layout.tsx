@@ -34,11 +34,10 @@ export const viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${sans.variable} ${display.variable} ${mono.variable}`}>
-      <body className="bg-[#0f172a] text-white antialiased selection:bg-cyan-400/20">
+      <body className="bg-[#0f172a] text-white antialiased selection:bg-cyan-400/20 min-h-screen overflow-x-hidden">
         <Curtain />
         <SocialBar />
-        {/* Global responsive wrapper */}
-        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full min-h-screen">
           {children}
         </main>
       </body>
